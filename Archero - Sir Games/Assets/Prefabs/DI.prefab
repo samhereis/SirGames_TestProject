@@ -1,0 +1,90 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2047620879778790301
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2199739619286822661}
+  - component: {fileID: 307235365939758370}
+  - component: {fileID: 8640466280911956575}
+  m_Layer: 0
+  m_Name: DI
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2199739619286822661
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2047620879778790301}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &307235365939758370
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2047620879778790301}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3707bf7f88f49f74cadc956dc6cdcca9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _objects: []
+  _configs: []
+  _scriptableObjects:
+  - id: ListOfAllScenes
+    Instance: {fileID: 11400000, guid: dc8478a176ae0d64fbc6d51388278efe, type: 2}
+  - id: SceneLoader
+    Instance: {fileID: 11400000, guid: f8eb14465fe2af448b7096e24276e802, type: 2}
+  - id: InputHolder
+    Instance: {fileID: 11400000, guid: 7aba2f6dc7ca7eb47adec2ff3859b596, type: 2}
+  _eventsWithNoParameters:
+  - id: OnGameStart
+    Instance:
+      <eventName>k__BackingField: 
+      <currentSubscribedObjectsCount>k__BackingField: 0
+      <timesInvoked>k__BackingField: 0
+  - id: OnWin
+    Instance:
+      <eventName>k__BackingField: 
+      <currentSubscribedObjectsCount>k__BackingField: 0
+      <timesInvoked>k__BackingField: 0
+  - id: OnLose
+    Instance:
+      <eventName>k__BackingField: 
+      <currentSubscribedObjectsCount>k__BackingField: 0
+      <timesInvoked>k__BackingField: 0
+  - id: OnAllEnemiesKilled
+    Instance:
+      <eventName>k__BackingField: 
+      <currentSubscribedObjectsCount>k__BackingField: 0
+      <timesInvoked>k__BackingField: 0
+--- !u!114 &8640466280911956575
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2047620879778790301}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 936439394b697f64684142c358b30688, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _targetFPS: 120
